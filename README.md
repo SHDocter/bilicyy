@@ -1,8 +1,8 @@
 # bilicyy
 bilibili陈壹亿歌单<br>
-歌单网址：http://bilicyy.top<br>
-帮助文档：http://bilicyy.top/a.html<br>
-直播间：https://live.bilibili.com/21653250<br>
+[歌单地址](http://bilicyy.top) 
+[帮助文档](http://bilicyy.top/a.html) 
+[直播间](https://live.bilibili.com/21653250)<br>
 字体库@高橋はるき<br>
 图片特效@甜甜小仙女<br>
 
