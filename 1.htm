@@ -1,0 +1,226 @@
+﻿<!doctype html><head>
+<html lang="zh-CN"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--中文，UTF-8编码-->
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=yes">
+<link rel="icon" type="image/x-icon" href="2.gif" /><link rel="shortcut icon" href="2.gif" type="image/x-icon">
+<title>陈壹亿(∩ᵒ̴̶̷̤⌔ᵒ̴̶̷̤∩)</title>
+<style type="text/css">
+
+<style>
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #ffecf5;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#clock {
+  font-family: 'Share Tech Mono', monospace;
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #ffecf5;
+  text-shadow: 0 0 20px #ffecf5, 0 0 20px rgba(10, 175, 230, 0);
+}	
+#clock .time {
+  letter-spacing: 0.05em;
+  font-size: 80px;
+  padding: 5px 0;
+}
+#clock .date {
+  letter-spacing: 0.1em;
+  font-size: 24px;
+}
+#clock .text {
+  letter-spacing: 0.1em;
+  font-size: 12px;
+  padding: 20px 0 0;
+}
+</style>
+
+<body>
+
+<script type="text/javascript" src="js/vue.min.js"></script>
+
+<div id="clock">
+    <p class="date">{{ date }}</p>
+    <p class="time">{{ time }}</p>
+</div>
+
+<script>
+var clock = new Vue ({
+    el:'#clock',
+    data:{
+        time: '',
+        date: ''
+    }
+});
+
+var week = ['星期天', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+var timerID = setInterval(updateTime, 1000);
+updateTime();
+function updateTime() {
+    var cd = new Date();
+    clock.time = zeroPadding(cd.getHours(), 2) + ':' + zeroPadding(cd.getMinutes(), 2) + ':' + zeroPadding(cd.getSeconds(), 2);
+    clock.date = zeroPadding(cd.getFullYear(), 4) + '-' + zeroPadding(cd.getMonth()+1, 2) + '-' + zeroPadding(cd.getDate(), 2) + ' ' + week[cd.getDay()];
+};
+
+function zeroPadding(num, digit) {
+    var zero = '';
+    for(var i = 0; i < digit; i++) {
+        zero += '0';
+    }
+    return (zero + num).slice(-digit);
+}</script>
+	<br><br><br><br><br><br>
+	<style>
+	*{margin:0;padding:0;}
+	.pic{width:250px;height:130px;border:solid 1px #ccc;margin:50px auto;overflow: hidden;position: relative;color:#fff;}	
+	.pic img{width:100%;}
+	.mask{position: absolute;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,.4);display: none;}
+	.pic h1{position: absolute;left:50%;top:25px;text-align: center;width: 110px;margin-left:-55px;font-weight: normal;transform: translateX(-200px);}
+	.pic span{position: absolute;left:50%;top:70px;width:90px;height:3px;background:#fff;margin-left:-45px;transform: translateX(200px)}
+	.pic p{position: absolute;left:50%;top:80px;font-size:22px;width:100px;text-align: center;margin-left:-50px;transform: translateX(-200px)}
+	.pic:hover p,
+	.pic:hover span,
+	.pic:hover h1{transform: translateX(0)}
+	.pic h1,
+	.pic p,
+	.pic span{transition: .7s;}
+	.pic:hover .mask{display: block}
+</style>
+</body>
+<body>
+<div class="pic">
+	<img src="3.gif">
+	<div class="mask"></div>
+	<h1>BILIBILI</h1>
+	<span></span>
+	<a href="" onclick="window.open('a.html')"><p>陈壹亿</p></a>
+</div>
+</body>
+<center>
+<p><span style="color: #ff99cc;"><strong>欢迎来到壹亿的小世界吖</strong></span></p><br>
+<p><span style="color: #62D5FF;"><strong>此颜色为已投稿 可直接点击观看</strong></span></p>
+</center>
+
+<style>
+p{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 25px;
+                font-family: "楷体";
+                color:rgb(255,153,204);              
+            }
+			</style>
+			<body>
+<br><br><br>
+				
+	<style>
+	.a p1{text-align: center; padding: 0px; margin: 0px;}
+	.a s1{color: #ff99cc;}
+	.a p2{text-align: center; padding: 0px; margin: 0px;color: #ff99cc;}
+	.a a1{color:#62D5FF; text-decoration:none;}
+	.a p1{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 25px;
+                font-family: "楷体";
+                color:rgb(255,153,204);              
+            }	
+	.b s1{color:#ff99cc;}
+	.b a1{color:#ff99cc; text-decoration:none;}
+	</style>
+<center><hr/>
+<div class="b">	
+<s1><a1 href="" onclick="window.open('https://live.bilibili.com/21653250')">直播间</a1></s1>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<s1><a1 href="" onclick="window.open('https://space.bilibili.com/277727349')">bilibili个人主页</a1></s1><hr/></div>
+<div class="a">
+<br><br><br><big><big><span style="color: #ff99cc;"><details><summary>歌单</summary><!--折叠栏-->
+<p1><s1>A</s1></p1><br>
+<p1><s1>爱你 <a1 href="" onclick="window.open('https://www.bilibili.com/video/BV1654y1q7DB')">爱的魔法</a1> 爱你就像爱生命 爱的华尔兹 爱上你 爱很简单 爱笑的眼睛 爱的飞行日记 安静</s1></p1><br>
+<p1><br><s1>B</s1></p1><br>
+<p1><s1> <a1 href="" onclick="window.open('https://www.bilibili.com/video/BV1yt4y1Q7e3')">宝贝</a1> <a1 href="" onclick="window.open('https://www.bilibili.com/video/BV1Yk4y1z7cD')">斑马斑马</a1> 不找了 北京东路的日子 不值得 不说再见 不为谁而作的歌 背对背拥抱 不分手的恋爱 八十年代的歌 被驯服的象 半情歌</s1></p1><br>
+<p1><br><s1>C</s1></p1><br>
+<p1><s1>彩虹 匆匆那年 吹梦到西洲 春风十里 超喜欢你 成全 虫儿飞 残酷月光 成都 宠坏 处处吻 春风吹 曾经的你</s1></p1><br>
+<p1><br><s1>D</s1></p1><br>
+<p1><s1>稻香 倒带 多情种 第三人称 <a1 href="" onclick="window.open('https://www.bilibili.com/video/BV11K411n7ub')">董小姐</a1> 当你 豆浆油条 兜圈 冬眠 大田后生仔 大城小爱 胆小鬼 当你老了 等你下课 第一次 多余的解释 带我走</s1></p1><br>
+<p1><br><s1>E</s1></p1><br>
+<p1><s1> 恶作剧 二零三 儿时</s1></p1><br>
+<p1><br><s1>F</s1></p1><br>
+<p1><s1>分手快乐 方圆几里 房间 Five hundred miles</s1></p1><br>
+<p1><br><s1>G</s1></p1><br>
+<p1><s1><a1 href="" onclick="window.open('https://www.bilibili.com/video/BV1EA411b7hi')">告白气球</a1> 关键词 故乡 过火 孤单心事 给我一首歌的时间 刚刚好 鸽子 gotta have you 鼓楼 光</s1></p1><br>
+<p1><br><s1>H</s1></p1><br>
+<p1><s1>好想你 <a1 href="" onclick="window.open('https://www.bilibili.com/video/BV1Ak4y1k7uG')">红色高跟鞋</a1> 好想爱这个世界啊 幻听 海底 后会无期 海芋恋 后来 海绵宝宝 好心分手 Hey jude 后来遇见他 火红的萨日朗</s1></p1><br>
+<p1><br><s1>J</s1></p1><br>
+<p1><s1>99次我爱他 就是爱你 借我 记得 倔强 简单爱 寂寞寂寞就好 今天你要就嫁给我</s1></p1><br>
+<p1><br><s1>K</s1></p1><br>
+<p1><s1>可惜不是你 <a1 href="" onclick="window.open('https://www.bilibili.com/video/BV1kf4y1Q7v9')">可惜没如果</a1> 可乐 开始懂了 可不可以 空白格 靠近一点点 苦笑</s1></p1><br>
+<p1><br><s1>L</s1></p1><br>
+<p1><s1>恋爱ing 来自天堂的魔鬼 啷个哩个啷 凉凉 旅行的意义 恋恋风尘 绿色 蓝莲花 老男孩 理想 梁山伯与朱丽叶</s1></p1><br>
+<p1><br><s1>M</s1></p1><br>
+<p1><s1>梦一场 美人鱼 明天你好 迷人的危险 魔鬼中的天使 <a1 href="" onclick="window.open('https://www.bilibili.com/video/BV1pp4y1q7r9')">慢慢喜欢你</a1> 妙龄童</s1></p1><br>
+<p1><br><s1>N</s1></p1><br>
+<p1><s1>你就不要想起我 暖暖 那些你很冒险的梦 你的答案 那女孩对我说 你给我听好 南山南 你是人间四月天 那些花儿 你的酒馆对我打了烊 你的背包</s1></p1><br>
+<p1><br><s1>O</s1></p1><br>
+<p1><s1>欧若拉</s1></p1><br>
+<p1><br><s1>P</s1></p1><br>
+<p1><s1>平凡之路 偏爱 攀登 泡沫 蒲公英的约定</s1></p1><br>
+<p1><br><s1>Q</s1></p1><br>
+<p1><s1>情歌 亲爱的那不是爱情 起风了 情深深雨蒙蒙 七里香 奇妙能力歌 七月上 晴天 青柠 桥边姑娘 桥豆麻袋 情非得已</s1></p1><br>
+<p1><br><s1>R</s1></p1><br>
+<p1><s1>如果的事 日不落 如果有来生 如果没有你 认真的老去 认错</s1></p1><br>
+<p1><br><s1>S</s1></p1><br>
+<p1><s1>说散就散 岁月神偷 时间煮雨 说好的幸福呢 是心动啊 素颜 世界这么大还是遇见你 三十岁的女人 说谎 算什么男人 <a1 href="" onclick="window.open('https://www.bilibili.com/video/BV1yV41167PK')">说爱你</a1></s1></p1><br>
+<p1><br><s1>T</s1></p1><br>
+<p1><s1><a1 href="" onclick="window.open('https://www.bilibili.com/video/BV1WK411s7ej')">太阳</a1> 她说 天黑黑 听海哭的声音 突然好想你 天使的翅膀 甜甜的 淘汰</s1></p1><br>
+<p1><br><s1>W</s1></p1><br>
+<p1><s1>我知道 我喜欢上你时的内心活动 我好想你 我怀念的 无与伦比的美丽 我在人民广场吃炸鸡 我的果汁分你一半 万有引力 问 <a1 href="" onclick="window.open('https://www.bilibili.com/video/BV1Xt4y1U7dY')">我可以</a1></s1></p1><br>
+<p1><br><s1>X</s1></p1><br>
+<p1><s1><s1>小宇 小幸运 小情歌 下雨天 <a1 href="" onclick="window.open('https://www.bilibili.com/video/BV1f54y1m7du')">夏天的风</a1> 心愿便利贴 消愁 想见你想见你想见你 星月神话 小酒窝 修炼爱情</s1></s1></p1><br>
+<p1><br><s1>Y</s1></p1><br>
+<p1><s1>勇气 云烟成雨 一直很安静 雨爱 遇见 有何不可 夜空中最亮的星 阴天快乐 一个像夏天一个像秋天 有点甜 一眼万年 勇敢的幸福 樱花草 叶子</s1></p1><br>
+<p1><br><s1>Z</s1></p1><br>
+<p1><s1>追光者 知足 最重要的决定 最佳损友 只对你有感觉 只是太爱你 <a1 href="" onclick="window.open('https://www.bilibili.com/video/BV1S64y1c7qL')">这一生关于你的风景</a1> 致姗姗来迟的你 走马 怎么办 左边</s1></p1></div></span></details>
+<br><br><hr/>
+<strang><big><big><p>直播时间 <time>20:00</time>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;结束时间 <time>23:00</time></p></big></big></strang><hr/>
+<center><strong><br></strong>
+<p data_temp_dwid="0"><strong data_temp_dwid="1">求求关注关注这个宝藏女孩叭w<br data_temp_dwid="2" />
+  <br data_temp_dwid="3" />
+  <br data_temp_dwid="4" />
+  你一票我一票，壹亿明天就出道w</strong></p>
+	<style>
+	.box{
+		width:120px;
+		height: 120px;
+		background:url(cyy.jpg) no-repeat;
+		background-size:cover;
+		margin:50px auto;
+		border-radius: 50%;
+		animation: rotate 10s infinite linear;
+	}	
+	
+	@keyframes rotate{
+		100%{transform: rotate(360deg)}
+	}
+</style>
+
+<body>
+
+<div class="box"></div>
+
+</body>
+<center><details><summary>如有异常请看此处</summary><img src="w.jpg"></details></center>
+</body>
+</html>

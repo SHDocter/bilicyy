@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<head>
+<html lang="zh-CN"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--中文，UTF-8编码-->
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=yes">
+<link rel="icon" type="image/x-icon" href="1.gif" /><link rel="shortcut icon" href="1.gif" type="image/x-icon">
+<title>陈壹亿(∩ᵒ̴̶̷̤⌔ᵒ̴̶̷̤∩)</title>
+<style type="text/css">
+<style>
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #FFECF5;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#clock {
+  font-family: 'Share Tech Mono', monospace;
+  color: #272727;
+  text-align: top;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #272727;
+  text-shadow: 0 0 20px #ffffff, 0 0 20px rgba(10, 175, 230, 0);
+}
+#clock .time {
+  letter-spacing: 0.05em;
+  font-size: 80px;
+  padding: 5px 0;
+}
+#clock .date {
+  letter-spacing: 0.47em;
+  font-size: 24px;
+}
+#clock .text {
+  letter-spacing: 0.1em;
+  font-size: 12px;
+  padding: 20px 0 0;
+}
+</style>
+</head>
+<body>
+
+<script type="text/javascript" src="js/vue.min.js"></script>
+
+<div id="clock">
+    <p class="date">{{ date }}</p>
+    <p class="time">{{ time }}</p>
+</div>
+
+<script>
+var clock = new Vue({
+    el: '#clock',
+    data: {
+        time: '',
+        date: ''
+    }
+});
+
+var week = ['星期天', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+var timerID = setInterval(updateTime, 1000);
+updateTime();
+function updateTime() {
+    var cd = new Date();
+    clock.time = zeroPadding(cd.getHours(), 2) + ':' + zeroPadding(cd.getMinutes(), 2) + ':' + zeroPadding(cd.getSeconds(), 2);
+    clock.date = zeroPadding(cd.getFullYear(), 4) + '-' + zeroPadding(cd.getMonth()+1, 2) + '-' + zeroPadding(cd.getDate(), 2) + ' ' + week[cd.getDay()];
+};
+
+function zeroPadding(num, digit) {
+    var zero = '';
+    for(var i = 0; i < digit; i++) {
+        zero += '0';
+    }
+    return (zero + num).slice(-digit);
+}</script>
+</body>
+<body>
+<br><br><br><br><br><br><br><br><br><br>
+<center><p><span style="color: #ff99cc;"><p><span>欢迎来到壹亿的小世界吖</span></p>
+<style>
+p{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 25px;
+                font-family: "楷体";
+                color:rgb(255,153,204);
+                
+            }
+			</style>
+			<body>
+			<br><br><br><center><hr/><span style="color: #ff99cc;"><a href="" onclick="window.open('https://live.bilibili.com/21653250')"><button type="button">陈壹亿</button/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="" onclick="window.open('https://space.bilibili.com/277727349')"><button type="button">bilibili个人主页</button/></a><hr/>
+<br><br><br><br><br><br><br><br>
+<big><big><p style="text-align: center; padding: 0px; margin: 0px;"><sp style="background-color: #ff99cc; color: #ffffff;">服务器维护中</sp></p><!--折叠栏-->
+<style>
+sp{
+                font-size: 80px;
+                font-family: "楷体";
+            }
+			</style>
